@@ -7,7 +7,6 @@ import { Coach } from '../models/coach';
 const httpOptions = {
   headers: new HttpHeaders({
     'Content-Type': 'application/json',
-    Accept: '*/*',
   }),
 };
 @Injectable({
