@@ -13,8 +13,8 @@ const httpOptions = {
   providedIn: 'root',
 })
 export class HomeService {
-  private baseUrl = 'https://www.unstop-seat.rf.gd/public/api/coaches';
-  private bookseatUrl = 'https://www.unstop-seat.rf.gd/public/api/book-seats';
+  private baseUrl = 'https://seat-system.pyzenlabs.com/api/coaches';
+  private bookseatUrl = 'https://seat-system.pyzenlabs.com/api/book-seats';
 
   constructor(private httpClient: HttpClient) {}
 
