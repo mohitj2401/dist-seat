@@ -1,0 +1,25 @@
+.seat-box{
+  width: 13%;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 2px;
+}
+.active{
+  color: white;
+  background-color: blueviolet;
+}
+
+.notactive{
+  color: white;
+  background-color: #4BB543;
+}
+.circle_active{
+  background-color: blueviolet;
+border-radius: 99999px;
+padding: 5px;
+}
+.circle_unactive{
+  background-color: #4BB543;
+border-radius: 99999px;
+padding: 5px;
+}
